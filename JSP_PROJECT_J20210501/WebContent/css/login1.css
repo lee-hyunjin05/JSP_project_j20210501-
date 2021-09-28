@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 380px;
+	margin-top: -190px;
+	margin-left: -200px;
+	line-height: 50px;
+	text-align: center;
+}
+
+#input {
+	width: 380px;
+	height: 30px;
+}
+
+.button {
+	display: block;
+	width: 380px;
+	height: 40px;
+	line-height: 40px;
+	margin: 10px;
+	border: 1px solid #eee;
+	color: white;
+	font-size: 16px;
+	background-color: #343148;
+	text-decoration: none;
+}
+
+.group {
+	color: #eee;
+}
+
+.group a {
+	color: gray;
+	text-decoration: none;
+}

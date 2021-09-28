@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* 추가해준거 폰트, class board_post  */
+/* 폰트 */
+@font-face {
+    font-family: 'SEBANG_Gothic_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wrapper {
+	width: 1350px;
+	margin: 0 auto;
+}
+
+#section {
+	float: right;
+	width: 1140px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+/* 	background-color: orange; */
+}
+
+#welcome {
+	width: 100%;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(52, 49, 72);
+}
+
+#post_title{
+	font-family: 'GyeonggiBatang';
+}
+
+.board {
+	float: left;
+	width: 343px;
+	height: 261.825px;
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid rgb(52, 49, 72);
+/* 	font-family: 'GyeonggiBatang'; */
+}
+.content_table{
+	width: 1140px;
+	font-family: 'GyeonggiBatang';
+	font-size: large;
+	border-top: 10px solid rgb(52, 49, 72);
+	border-left: 1px solid rgb(52, 49, 72);
+	border-right: 1px solid rgb(52, 49, 72);
+	border-bottom: 1px solid rgb(52, 49, 72);
+	border-collapse: collapse;
+}
+.content_table tr:first-child {
+	background-color: rgba(52, 49, 72, 20%);
+}
+.content_table tr{
+	padding: 10px;
+	border-bottom: 1px solid rgb(52, 49, 72);
+}
+.center{
+	text-align: center;
+	padding: 10px;
+/* 	width: 750px; */
+/* 	height: 50px; */
+}
+.del_btn{
+	background-color: transparent;
+	border: 0;
+	outline: 0;
+	width: 70px;
+	color:  rgb(52, 49, 72);
+	font-family: 'GyeonggiBatang';
+	font-size: large;
+}
+input {
+	padding: 5px;
+}
+.mypagelogin {
+	background-color: #343148;
+	line-height: 13px;
+	color: white;
+}
+.button {
+	background-color: #343148;
+	width: 55px;
+	height: 25px;
+	border-radius: 3px;
+	color: white;
+	font-family: 'GyeonggiBatang';
+}

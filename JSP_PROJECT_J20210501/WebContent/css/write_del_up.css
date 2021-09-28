@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+/* 추가해준거 폰트, class board_post  */
+/* 폰트 */
+@font-face {
+    font-family: 'SEBANG_Gothic_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wrapper {
+	width: 1350px;
+	margin: 0 auto;
+}
+
+#section {
+	float: right;
+	width: 1140px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+/* 	background-color: orange; */
+}
+
+#welcome {
+	width: 100%;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(52, 49, 72);
+}
+
+#post_title{
+	font-family: 'GyeonggiBatang';
+}
+
+.board {
+	float: left;
+	width: 343px;
+	height: 261.825px;
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid rgb(52, 49, 72);
+/* 	font-family: 'GyeonggiBatang'; */
+}
+.update_table{
+	width: 1140px;
+	font-family: 'GyeonggiBatang';
+	font-size: large;
+	border-top: 10px solid rgb(52, 49, 72);
+	border-left: 1px solid rgb(52, 49, 72);
+	border-right: 1px solid rgb(52, 49, 72);
+	border-bottom: 1px solid rgb(52, 49, 72);
+	border-collapse: collapse;
+}
+.update_table tr:first-child {
+	background-color: rgba(52, 49, 72, 20%);
+}
+.update_table tr{
+	padding: 10px;
+	border-bottom: 1px solid rgb(52, 49, 72);
+}
+.update_table td{
+ padding-top: 5px;
+ padding-bottom: 5px;
+ font-weight: bold;
+}
+.up_btn{
+	text-align: center;
+	border: 1px solid rgb(52,49,72) ;
+	border-radius: 0.2em;
+	outline: 1;
+	color:  rgb(52, 49, 72);
+	font-family: 'GyeonggiBatang';
+	font-size: 16px;
+	float: right;
+	margin-right: 10px;
+}
+.del_table{
+	width: 1140px;
+	font-family: 'GyeonggiBatang';
+	font-size: large;
+	border-top: 10px solid rgb(52, 49, 72);
+	border-left: 1px solid rgb(52, 49, 72);
+	border-right: 1px solid rgb(52, 49, 72);
+	border-bottom: 1px solid rgb(52, 49, 72);
+	border-collapse: collapse;
+	background-color: rgba(52, 49, 72, 20%);
+}
+/* .del_table tr:first-child { */
+	
+/* } */
+.del_table tr{
+	padding: 8px;
+/* 	border-bottom: 1px solid rgb(52, 49, 72); */
+}
+.del_btn{
+	text-align: center;
+	border: 1px solid rgb(52,49,72) ;
+	border-radius: 0.2em;
+	outline: 1;
+	color:  rgb(52, 49, 72);
+	font-family: 'GyeonggiBatang';
+	font-size: large;
+/* 	text-align: right; */
+/* 	padding-right: 50px; */
+}
+
+.select_table{
+	width: 1140px;
+	font-family: 'GyeonggiBatang';
+	font-size: large;
+	border-top: 10px solid rgb(52, 49, 72);
+	border-left: 1px solid rgb(52, 49, 72);
+	border-right: 1px solid rgb(52, 49, 72);
+	border-bottom: 1px solid rgb(52, 49, 72);
+	background-color: rgba(52, 49, 72, 20%);
+/* 	padding-top: 20px; */
+/* 	padding-left: 10px; */
+/* 	padding-right: 10px; */
+/* 	padding-bottom: 20px; */
+	border-collapse: collapse;
+}
+
+.write_table{
+	width: 1140px;
+	font-family: 'GyeonggiBatang';
+	font-size: large;
+	border-top: 10px solid rgb(52, 49, 72);
+	border-left: 1px solid rgb(52, 49, 72);
+	border-right: 1px solid rgb(52, 49, 72);
+	border-bottom: 1px solid rgb(52, 49, 72);
+	border-collapse: collapse;
+}
+.write_table tr:first-child {
+
+	background-color: rgba(52, 49, 72, 20%);
+	
+}
+.write_table tr{
+	padding: 10px;
+	border-bottom: 1px solid rgb(52, 49, 72);
+} 
+.write_table td{
+ padding-top: 5px;
+ padding-bottom: 5px;
+ font-weight: bold;
+}
+.center{
+	text-align: center;
+	padding: 10px;
+}
+.right{
+	text-align: right;
+	padding-right: 10px;
+}
+
+input {
+	padding: 5px;
+}
+textarea{
+	border: none;
+}
+.right input{
+	text-align: center;
+	border: 1px solid rgb(52,49,72) ;
+	border-radius: 0.2em;
+	outline: 1;
+	color:  rgb(52, 49, 72);
+	font-family: 'GyeonggiBatang';
+	font-size: large;
+}
+.right #sub{
+	margin-right: 5px;
+}
+#mypagelogin {
+	background-color: #343148;
+	line-height: 13px;
+	color: white;
+}
+.button {
+	background-color: #343148;
+	width: 55px;
+	height: 25px;
+	border-radius: 3px;
+	color: white;
+	font-family: 'GyeonggiBatang';
+}
+h1, p{
+	font-family: 'GyeonggiBatang';
+}

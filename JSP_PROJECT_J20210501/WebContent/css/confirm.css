@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 380px;
+	margin-top: -190px;
+	margin-left: -200px;
+	line-height: 50px;
+	text-align: center;
+	
+}
+
+
+
+.button {
+/* 	display: block; */
+	width: 60px;
+	height: 30px;
+/* 	line-height: 40px; */
+	margin: 0 auto;
+	border: 1px solid #eee;
+	color: white;
+	font-size: 15px;
+	background-color: #343148;
+	text-decoration: none;
+	border-radius: 5px;
+	
+}
+#center{
+	text-align: center;
+}
+
+

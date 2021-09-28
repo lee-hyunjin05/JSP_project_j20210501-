@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+#wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 380px;
+	margin-top: -190px;
+	margin-left: -200px;
+	line-height: 50px;
+	text-align: center;
+	
+}
+#input {
+	width: 300px;
+	height: 25px;
+}
+#tel {
+	width: 82px;
+	height: 23px;
+}
+
+.button {
+	display: block;
+	width: 380px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	border: 1px solid #eee;
+	color: white;
+	font-size: 16px;
+	background-color: #343148;
+	text-decoration: none;
+	border-radius: 5px;
+	
+}
+find tr:last-child{
+	border-top: 1px solid #343148;
+}
+#cancel {
+	display: block;
+	width: 380px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	border: 1px solid #eee;
+	color: white;
+	font-size: 16px;
+	background-color: #343148;
+	text-decoration: none;
+	border-radius: 5px;
+}
+

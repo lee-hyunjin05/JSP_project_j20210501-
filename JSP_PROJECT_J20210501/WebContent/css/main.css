@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#wrapper {
+	width: 1350px;
+	margin: 0 auto;
+}
+
+#section {
+	float: right;
+	width: 1140px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+
+}
+
+#welcome {
+	width: 100%;
+	height: 100%;
+}
+
+.board {
+	margin: 5px;
+	padding: 10px;
+	overflow: hidden;
+	height: 300px;
+
+}
+
+.board a {
+	margin: 10px;
+	text-decoration: none;
+}
+.best_img{
+	float: inherit;
+}
+.best_img a{
+	float: left;
+}
+.board a:hover {
+/* 	font-weight: bold; */
+}

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* 폰트 */
+@font-face {
+    font-family: 'SEBANG_Gothic_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.pfwrap{
+	font-family: 'GyeonggiBatang';
+	width: 350px;
+	height: 450px;
+	border-radius: 2px;
+	border: 2px dashed rgb(52, 49, 72);
+	background: rgba(52, 49, 72, 10%); 
+	color: rgb(52, 49, 72);
+	text-align: center;
+	justify-content: center;
+	display: block; 
+	margin: auto;
+}
+
+.pf_image{
+	width: 200px;
+	height: 200px;
+	margin-top: 30px;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-bottom: 0px;
+	border: 1px solid rgb(52, 49, 72);
+}
+
+.pf_content{
+	font-family: 'GyeonggiBatang';
+	clear: both;
+	width: 250px;
+	height: 150px;
+	margin-top: 35px;
+	margin-left: 50px;
+	margin-right: 50px;
+	/* border: 1px solid black; */
+	text-align: center;
+	justify-content: center;
+	
+}
+
+th{
+	text-align: center;
+	
+}
+
+tr{
+	border-bottom: 2px navy solid;
+	
+}
+
+input{
+	border: 1px solid rgb(52,49,72) ;
+	border-radius: 0.2em;
+	outline: 1;
+	padding-left: 10px;
+/* 	float: right; */
+	color: rgb(52, 49, 72);
+	font-family: 'GyeonggiBatang';
+	font-size: 16px;
+}
+
+.dm_table{
+	width: 500px;
+	font-family: 'GyeonggiBatang';
+	font-size: large;
+	border-top: 10px solid rgb(52, 49, 72);
+	border-left: 1px solid rgb(52, 49, 72);
+	border-right: 1px solid rgb(52, 49, 72);
+	border-bottom: 1px solid rgb(52, 49, 72);
+	border-collapse: collapse;
+}
+.dm_table tr:first-child {
+
+	background-color: rgba(52, 49, 72, 20%);
+	
+}
+.dm_table tr{
+	padding: 10px;
+	border-bottom: 1px solid rgb(52, 49, 72);
+} 
+.dm_table td{
+ padding-top: 5px;
+ padding-bottom: 5px;
+ font-weight: bold;
+}
